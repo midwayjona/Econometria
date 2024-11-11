@@ -31,6 +31,7 @@ Para ejecutar los notebooks y los laboratorios, se recomienda instalar:
 - **Python 3.12.7**
 - **Jupyter Notebook**
 - Paquetes de Python: `numpy`, `pandas`, `matplotlib`, `scikit-learn`
+- **VSCode**
 
 Puedes instalar los paquetes ejecutando:
 ```bash
