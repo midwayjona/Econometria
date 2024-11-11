@@ -1,4 +1,4 @@
-# Econometria 1
+# Econometria I
 Repositorio de Notebooks, Laboratorios y Proyectos
 
 > [!NOTE]
