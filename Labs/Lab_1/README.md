@@ -13,6 +13,14 @@ En este laboratorio, se presentan una serie de ejercicios prácticos que incluye
 6. **Gestión de facturas pendientes**: Programa para agregar, pagar y gestionar facturas almacenadas en un diccionario.
 7. **Simulación de una baraja de póker**: Creación de un set con todas las cartas y operaciones de probabilidad entre subconjuntos de cartas.
 
+## Enlace al Notebook
+
+Puedes acceder al notebook de este laboratorio en el siguiente enlace: [Laboratorio_1.ipynb](Laboratorio_1.ipynb)
+
+## Entregable
+
+El entregable de este laboratorio consiste en completar y subir el notebook con las soluciones de los ejercicios planteados en el repositorio de GitHub correspondiente.
+
 ## Estructura del Proyecto
 
 - **Laboratorio_1.ipynb**: Jupyter Notebook con los ejercicios resueltos y comentarios en Markdown para cada sección.
@@ -31,3 +39,7 @@ En este laboratorio, se presentan una serie de ejercicios prácticos que incluye
    ```bash
    gh repo clone midwayjona/Laboratorios
    cd laboratorio-econometria1
+
+---
+
+Este laboratorio proporciona una base sólida en el uso de Python para análisis de datos y servirá como fundamento para los temas más avanzados en el curso de Econometría I.
