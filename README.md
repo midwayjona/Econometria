@@ -25,7 +25,7 @@ Este repositorio recopila el material trabajado durante el curso **Econometría 
 ## Requisitos
 
 Para ejecutar los notebooks y los laboratorios, se recomienda instalar:
-- **Python 3.x**
+- **Python 3.12.7**
 - **Jupyter Notebook**
 - Paquetes de Python: `numpy`, `pandas`, `matplotlib`, `scikit-learn`
 
