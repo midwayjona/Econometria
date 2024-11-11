@@ -2,7 +2,8 @@
 Repositorio de Notebooks, Laboratorios y Proyectos
 
 > [!NOTE]
-> Este repositorio recopila el material trabajado durante el curso **Econometría I** del Postgrado en Administración de Operaciones en la Universidad Galileo. Aquí encontrarás notebooks de clase, laboratorios y proyectos que abordan temas de análisis de datos y machine learning.
+> Este repositorio recopila el material trabajado durante el curso **Econometría I** del Postgrado en Administración de Operaciones en la Universidad Galileo. Aquí encontrarás notebooks de clase, laboratorios y proyectos que abordan temas de análisis de datos y machine learning. [Syllabus](Syllabus.pdf)
+
 
 ## Contenido
 
