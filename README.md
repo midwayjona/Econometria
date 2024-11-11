@@ -22,7 +22,7 @@ Repositorio de Notebooks, Laboratorios y Proyectos
 ## Estructura del Repositorio
 
 - `notebooks/`: Contiene los notebooks de clase organizados por semana.
-- `laboratorios/`: Directorio con los archivos de cada laboratorio, organizados según la fecha de entrega.
+- `labs/`: Directorio con los archivos de cada laboratorio, organizados según la fecha de entrega.
 - `proyectos/`: Carpeta para los proyectos finales y otros proyectos significativos desarrollados en el curso.
 
 ## Requisitos
