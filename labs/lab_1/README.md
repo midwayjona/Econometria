@@ -1,4 +1,5 @@
-# [Laboratorio 1](Laboratorio_1.ipynb) - Econometría I
+## [Laboratorio 1 Notebook](Laboratorio_1.ipynb) 
+### Econometría I
 
 Este repositorio contiene el primer laboratorio del curso **Econometría I**, enfocado en la **sintaxis y estructuras de datos en Python**. En este laboratorio se trabajan diversos ejercicios que permiten practicar la programación básica en Python, con el objetivo de desarrollar habilidades en manipulación de datos, funciones y estructuras clave para análisis econométricos.
 
