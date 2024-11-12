@@ -1,7 +1,8 @@
 ## [Laboratorio 2 Notebook](lab_2.ipynb) 
 ### Econometría I
 
-Este repositorio contiene el segundo laboratorio del curso **Econometría I**, titulado **Análisis de Datos con Python**. En este laboratorio, se abordan temas de manipulación y análisis de datos utilizando las bibliotecas **Numpy**, **Pandas** y **Matplotlib** en Python. Los ejercicios están diseñados para fortalecer las habilidades de análisis y visualización de datos.
+> [!NOTE]
+> Este repositorio contiene el segundo laboratorio del curso **Econometría I**, titulado **Análisis de Datos con Python**. En este laboratorio, se abordan temas de manipulación y análisis de datos utilizando las bibliotecas **Numpy**, **Pandas** y **Matplotlib** en Python. Los ejercicios están diseñados para fortalecer las habilidades de análisis y visualización de datos.
 
 ## Descripción del Laboratorio
 
