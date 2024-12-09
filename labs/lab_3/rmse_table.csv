@@ -1,0 +1,6 @@
+Modelo,RMSE Promedio
+Gradient Boosting,142499.11617518924
+Random Forest,159068.1786824128
+Decision Tree,169510.04235164952
+Ridge Regression,195298.04977849836
+Linear Regression,22722276676647.625
