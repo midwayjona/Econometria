@@ -1,6 +1,8 @@
-# Laboratorio 3 - Econometría I: Análisis de Regresiones
+## [Laboratorio 3 Notebook](lab_3.ipynb) 
+### Econometría I
 
-Este repositorio contiene el código y los resultados del Laboratorio 3 del curso **Econometría I**. En este laboratorio, se realiza un análisis de regresión utilizando un dataset proporcionado, con el objetivo de predecir el precio (`Price (in USD)`) como variable objetivo. 
+> [!NOTE]
+> Este repositorio contiene el código y los resultados del Laboratorio 3 del curso **Econometría I**. En este laboratorio, se realiza un análisis de regresión utilizando un dataset proporcionado, con el objetivo de predecir el precio (`Price (in USD)`) como variable objetivo. 
 
 ## Objetivos del Laboratorio
 
