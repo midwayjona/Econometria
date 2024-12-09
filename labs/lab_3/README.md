@@ -22,7 +22,7 @@
 
 ## Contenido del Repositorio
 
-- `Lab_3_Regresiones.ipynb`: Notebook de Jupyter con la implementación completa de los pasos requeridos en el laboratorio.
+- `lab_3.ipynb`: Notebook de Jupyter con la implementación completa de los pasos requeridos en el laboratorio.
 - `dataset.csv`: Dataset utilizado para el análisis y entrenamiento de los modelos.
 - `resultados/`: Carpeta donde se almacenan gráficos, tablas y resultados del análisis.
 - `README.md`: Este archivo, que proporciona una descripción del laboratorio y su contenido.
