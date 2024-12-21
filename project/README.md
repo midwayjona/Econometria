@@ -29,7 +29,6 @@ El análisis se enfoca en variables clave como duración de sesiones, frecuencia
 ├── README.md               # Descripción del proyecto
 ├── dataset.csv             # Datos utilizados para el análisis
 ├── analysis.ipynb          # Análisis exploratorio y preparación de datos
-├── model.py                # Código del modelo
 ├── results                 # Resultados y gráficas generadas
 ├── presentation.pdf        # Presentación final
 └── requirements.txt        # Dependencias del proyecto
