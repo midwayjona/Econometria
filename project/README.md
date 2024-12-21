@@ -1,70 +1,66 @@
 # Identificación de Clientes en Riesgo de Abandono en Gimnasios
 
-[Notebook de Análisis](./analysis.ipynb): Contiene el código y análisis detallado para este proyecto.
-
 > [!NOTE]
 > Este proyecto tiene como objetivo construir un modelo de clasificación que permita identificar clientes en riesgo de abandono en un gimnasio, utilizando datos demográficos, métricas físicas y hábitos de ejercicio. El análisis y desarrollo del modelo se realiza como parte del curso de Econometría I de la Maestría en Investigación de Operaciones.
+
+---
+
+## Descripción General
+
+Se implementaron tres modelos principales:
+1. **Random Forest Base:** Modelo inicial para capturar relaciones no lineales.
+2. **Random Forest con SMOTE:** Ajustado para balancear clases subrepresentadas.
+3. **Gradient Boosting:** Modelo iterativo para corregir errores de clasificación.
+
+El objetivo fue clasificar a los clientes en tres categorías de frecuencia de asistencia semanal:
+- **Baja:** 2 o menos sesiones por semana.
+- **Media:** De 2 a 4 sesiones por semana.
+- **Alta:** Más de 4 sesiones por semana.
+
+---
+
+## Estructura del Repositorio
+
+Este repositorio contiene los siguientes archivos:
+
+- **[analysis.ipynb](analysis.ipynb):** Notebook con el análisis exploratorio, preprocesamiento de datos, implementación de los modelos y evaluación de resultados.
+- **[report.pdf](report.pdf):** Informe final del proyecto con descripciones detalladas, resultados y recomendaciones.
+- **[dataset.csv](dataset.csv):** Dataset utilizado para entrenar y evaluar los modelos.
+- **[Presentación en YouTube](https://www.youtube.com/watch?v=XXXXXXXXXX):** Video con la presentación final del proyecto.
+
+---
+
+## Resultados Principales
+
+| **Modelo**            | **Precisión Global** | **Precisión (Alta)** | **Recall (Alta)** | **Precisión (Baja)** | **Recall (Baja)** | **Precisión (Media)** | **Recall (Media)** |
+|------------------------|----------------------|-----------------------|-------------------|-----------------------|-------------------|-----------------------|--------------------|
+| Random Forest (Base)  | 70%                 | 61%                  | 45%              | 51%                  | 29%              | 74%                  | 87%               |
+| Random Forest (SMOTE) | 63%                 | 46%                  | 58%              | 42%                  | 40%              | 74%                  | 72%               |
+| Gradient Boosting     | 61%                 | 46%                  | 55%              | 38%                  | 43%              | 73%                  | 67%               |
+
+---
+
+## Conclusiones
+
+1. El modelo **Random Forest Base** se destaca por su mejor precisión global y recall en la clase predominante (Media).
+2. **Random Forest con SMOTE** mejora significativamente en las clases subrepresentadas (Alta y Baja), aunque sacrifica algo de precisión global.
+3. **Gradient Boosting** ofrece un balance razonable entre todas las clases, aunque su precisión global es menor.
+
+---
+
+## Recomendaciones
+
+1. Incrementar el volumen de datos para las clases menos representadas (Alta y Baja).
+2. Implementar **Random Forest Base** para escenarios donde la precisión global sea la prioridad.
+3. Considerar **Gradient Boosting** si se busca un balance entre todas las clases.
+4. Ajustar hiperparámetros de los modelos seleccionados para mejorar el desempeño.
+5. Evaluar el modelo en un entorno real para confirmar su efectividad.
+
+---
 
 ## Autor
 **Jonathan Amado**  
 Carnet: 14002285
-
-## Descripción del Proyecto
-Este proyecto aborda un problema común en gimnasios: la retención de clientes. Mediante el uso de técnicas de minería de datos y aprendizaje de máquina, se busca identificar patrones que permitan clasificar a los miembros del gimnasio en diferentes niveles de frecuencia de asistencia:
-
-- **Baja Frecuencia (Riesgo de Abandono):** Menos de 2 sesiones por semana.
-- **Frecuencia Moderada:** Entre 2 y 4 sesiones por semana.
-- **Frecuencia Alta:** Más de 4 sesiones por semana.
-
-El análisis se enfoca en variables clave como duración de sesiones, frecuencia cardíaca, composición corporal, y hábitos de hidratación, entre otras.
-
-## Archivos Principales
-- **`dataset.csv`**: Archivo con los datos utilizados para el análisis.
-- **`analysis.ipynb`**: Notebook que contiene el análisis exploratorio, visualizaciones y preparación de los datos.
-- **`model.py`**: Código para la construcción y evaluación del modelo de clasificación.
-- **`presentation.pdf`**: Presentación con los resultados y conclusiones del proyecto.
-
-## Estructura del Repositorio
-```
-├── README.md               # Descripción del proyecto
-├── dataset.csv             # Datos utilizados para el análisis
-├── analysis.ipynb          # Análisis exploratorio y preparación de datos
-├── model.py                # Código del modelo
-├── results                 # Resultados y gráficas generadas
-├── presentation.pdf        # Presentación final
-└── requirements.txt        # Dependencias del proyecto
-```
-
-## Tecnologías Utilizadas
-- **Python**: Lenguaje principal para el análisis y modelado.
-- **Bibliotecas**:
-  - `pandas`: Manipulación y limpieza de datos.
-  - `numpy`: Operaciones matemáticas.
-  - `matplotlib` y `seaborn`: Visualización de datos.
-  - `scikit-learn`: Construcción y evaluación del modelo.
-
-## Cómo Ejecutar el Proyecto
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/riesgo_abandono_gimnasios.git
-   ```
-2. Instala las dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Abre el notebook y ejecuta el análisis exploratorio:
-   ```bash
-   jupyter notebook analysis.ipynb
-   ```
-4. Corre el script del modelo:
-   ```bash
-   python model.py
-   ```
-
-## Resultados Esperados
-- Un modelo de clasificación con métricas de evaluación claras (precisión, recall, F1-score).
-- Visualizaciones que expliquen el impacto de las variables en la clasificación.
-- Recomendaciones para estrategias de retención en gimnasios.
 
 ## Licencia
 Este proyecto es desarrollado únicamente con fines educativos como parte del curso de Econometría I.
