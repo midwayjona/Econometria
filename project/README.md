@@ -26,7 +26,7 @@ Este repositorio contiene los siguientes archivos:
 - **[analysis.ipynb](analysis.ipynb):** Notebook con el análisis exploratorio, preprocesamiento de datos, implementación de los modelos y evaluación de resultados.
 - **[report.pdf](report.pdf):** Informe final del proyecto con descripciones detalladas, resultados y recomendaciones.
 - **[dataset.csv](dataset.csv):** Dataset utilizado para entrenar y evaluar los modelos.
-- **[Presentación en YouTube](https://www.youtube.com/watch?v=XXXXXXXXXX):** Video con la presentación final del proyecto.
+- **[Presentación en YouTube](https://youtu.be/pOs2pN99a6o):** Video con la presentación final del proyecto.
 
 ---
 
