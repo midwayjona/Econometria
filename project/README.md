@@ -1,12 +1,7 @@
-# Econometria I
-Repositorio de Notebooks, Laboratorios y Proyectos
-
-> [!NOTE]
-> Este repositorio recopila el material trabajado durante el curso **Econometría I** del Postgrado en Administración de Operaciones en la Universidad Galileo. Aquí encontrarás notebooks de clase, laboratorios y proyectos que abordan temas de análisis de datos y machine learning. [Syllabus](Syllabus.pdf)
-
 # Identificación de Clientes en Riesgo de Abandono en Gimnasios
 
-Este proyecto tiene como objetivo construir un modelo de clasificación que permita identificar clientes en riesgo de abandono en un gimnasio, utilizando datos demográficos, métricas físicas y hábitos de ejercicio. El análisis y desarrollo del modelo se realiza como parte del curso de Econometría I de la Maestría en Investigación de Operaciones.
+> [!NOTE]
+> Este proyecto tiene como objetivo construir un modelo de clasificación que permita identificar clientes en riesgo de abandono en un gimnasio, utilizando datos demográficos, métricas físicas y hábitos de ejercicio. El análisis y desarrollo del modelo se realiza como parte del curso de Econometría I de la Maestría en Investigación de Operaciones.
 
 ## Autor
 **Jonathan Amado**  
