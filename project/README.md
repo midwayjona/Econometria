@@ -1,7 +1,5 @@
 # Identificación de Clientes en Riesgo de Abandono en Gimnasios
 
-[Notebook de Análisis](./analysis.ipynb): Contiene el código y análisis detallado para este proyecto.
-
 > [!NOTE]
 > Este proyecto tiene como objetivo construir un modelo de clasificación que permita identificar clientes en riesgo de abandono en un gimnasio, utilizando datos demográficos, métricas físicas y hábitos de ejercicio. El análisis y desarrollo del modelo se realiza como parte del curso de Econometría I de la Maestría en Investigación de Operaciones.
 
